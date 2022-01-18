@@ -2,8 +2,8 @@ require File.expand_path("../lib/keycloak/version", __FILE__)
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-keycloak"
   spec.version       = Omniauth::Keycloak::VERSION
-  spec.authors       = ["Cameron Crockett"]
-  spec.email         = ["cameron.crockett@ccrockett.com"]
+  spec.authors       = ["dimedroli4"]
+  spec.email         = ["dimedroli4@gmail.com"]
 
   spec.description   = %q{Omniauth strategy for Keycloak}
   spec.summary       = spec.description
