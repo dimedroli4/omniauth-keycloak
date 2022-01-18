@@ -121,6 +121,10 @@ module OmniAuth
                 id_token
             end
 
+            def callback_url
+                full_host + script_name + callback_path
+            end
+
             OmniAuth.config.add_camelization('keycloak_openid', 'KeycloakOpenId')
         end
     end
