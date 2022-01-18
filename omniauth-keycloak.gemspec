@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
 
   spec.description   = %q{Omniauth strategy for Keycloak}
   spec.summary       = spec.description
-  spec.homepage      = "https://github.com/ccrockett/omniauth-keycloak"
+  spec.homepage      = "https://github.com/dimedroli4/omniauth-keycloak"
   spec.license       = "MIT"
   spec.required_rubygems_version = '>= 3.1.2'
   spec.required_ruby_version = '>= 2.6'
